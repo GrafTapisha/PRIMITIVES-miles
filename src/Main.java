@@ -1,10 +1,10 @@
 public class Main {
     public static void main(String[] args) {
-        int x = 150;
+        int pay = 150;
         // Потраченные рубли
-        int y = 20;
+        int miles = 20;
         // стоимость мили
-        int z = x / y;
-        System.out.println("Начислено миль: " + z);
+        int bonusMiles = pay / miles;
+        System.out.println("Начислено миль: " + bonusMiles);
     }
 }
